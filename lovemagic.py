@@ -12,7 +12,7 @@ class ILYMod(loader.Module):
     async def ilycmd(self, message: "telethon.tl.types.Message") -> None:
         """This famous TikTok animation..."""
         if not message.out:
-            message = await message.respond("ily")
+            message = await message.respond("❤️ magic")
 
         arr = ["❤️", "🧡", "💛", "💚", "💙", "💜", "🤎", "🖤", "💖"]
         h = "🤍"
